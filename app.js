@@ -1,7 +1,4 @@
 const fs = require('fs')
-const data = require('./data')
-const validator = require('validator')
-const chalk = require('chalk')
 const yargs = require('yargs')
 const grades=require('./grades')
 yargs.command({
